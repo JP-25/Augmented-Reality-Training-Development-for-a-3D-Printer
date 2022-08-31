@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="3Dprinter" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="3Dprinters_assembly" assemblyId="6f099283db574981977453ebb9a2a38d">
+<Part name="3Dprinter" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0001" translation="51.8724 44.9248 129.092" rotation="AD: 0.6150566815114342 -0.7894634517249534 20.066555593084882 180.138" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

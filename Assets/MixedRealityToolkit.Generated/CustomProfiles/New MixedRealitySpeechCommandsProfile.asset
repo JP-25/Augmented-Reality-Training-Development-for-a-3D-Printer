@@ -1,0 +1,641 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f18fec9b55c4f818e284af454161962, type: 3}
+  m_Name: New MixedRealitySpeechCommandsProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  startBehavior: 0
+  recognitionConfidenceLevel: 2
+  speechCommands:
+  - localizationKey: 
+    keyword: Close Settings
+    keyCode: 51
+    action:
+      id: 2
+      description: Menu
+      axisConstraint: 2
+  - localizationKey: 
+    keyword: Select
+    keyCode: 49
+    action:
+      id: 1
+      description: Select
+      axisConstraint: 2
+  - localizationKey: 
+    keyword: Toggle Diagnostics
+    keyCode: 48
+    action:
+      id: 14
+      description: Toggle Diagnostics
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Toggle Profiler
+    keyCode: 57
+    action:
+      id: 15
+      description: Toggle Profiler
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Green
+    keyCode: 36
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Test
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Open Settings
+    keyCode: 111
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Density Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Density Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Density Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Density Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Change Raft Type Full Raft
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Change Raft Type Mini Rafts
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Change Raft Type None
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Toggle Raft Label
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Toggle Internal Supports
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Touch Point Size Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Touch Point Size Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Touch Point Size Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Touch Point Size Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Slope Multiplier Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Slope Multiplier Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Slope Multiplier Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Slope Multiplier Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Height Above Raft Point Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Height Above Raft One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Height Above Raft Point Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Height Above Raft One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Raft Thickness Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Raft Thickness Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Raft Thickness Point Zero Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Raft Thickness Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Scale Point Two
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Scale Point Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Scale Point Two
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Scale Point Five
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Go Back
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Reset All
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Raft Type Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Raft Label Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Density Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Touch Point Size Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Internal Supports Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Slope Modifier Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Height Above Raft Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Raft Thickness Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Scale Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Ex Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Ex Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Why Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Why Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Increase Zee Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Decrease Zee Scale Point One
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Ex Scale Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Why Scale Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Set Zee Scale Default
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Send To Printer
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Auto Orient Object
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Auto Generate Supports
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Raft Type Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Raft Label Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Density Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Touch Point Size Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Internal Supports Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Slope Multiplier Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Height Above Raft Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Raft Thickeness Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Layer Thickness Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Scale Help
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: How do I know my part is ready to print
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: How long do I let my object drip
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: When do I break the part from the supports
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: How long should I wash and cure
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: How do I print
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: How do I clean the nozzle
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: When do I replace the resin
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: How do I replace the resin
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: What can go wrong
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Clear
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Basic Commands
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Setting Change Commands
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Frequently Asked Questions
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Auto Generate Layout
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: One Click Print
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Cube
+    keyCode: 0
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
